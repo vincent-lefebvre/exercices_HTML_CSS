@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Réponse 2</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Découper une page en sections logiques</h1>
+        <p>Ce titre et le paragraphe sont dans l'en-tête</p>
+        <!-- Bien que ce ne soit pas obligatoire, on trouve dans l'en-tête un menu de navigation, le menu est parfois dans sa balise NAV après l'en-tête -->
+        <nav>
+            <!-- ul>li*4>a -->
+            <ul>
+                <li><a href="#"></a>Navigation</li>
+                <li><a href="#"></a>Qui sommes-nous ?</li>
+                <li><a href="#"></a>Ce que nous faisons</li>
+                <li><a href="#"></a>Contact</li>
+            </ul>
+            <!-- une barre de recherche est un outil de navigation dans le sie, il est non linéaire (contrairement à la ul) -->
+            <!-- le formulaire de recherche du site -->
+            <form action="#">
+                <input type="search" name="cherche" placeholder="Recherchez">
+                <input type="submit" value="ok">
+            </form>
+        </nav>
+    </header>
+
+    <!-- voici le contenu principal la balise MAIN, parfois un div id="main", ou div class="content" -->
+    <main>
+        <!-- article*2>h2{Titre de niveau 1}p{lorem}h3{titre de niveau 2}p{autre paragraphe} -->
+        <article>
+            <h2>Titre de niveau 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias fuga adipisci quia. Laboriosam, vitae quasi? Accusantium architecto similique consequuntur unde quaerat officiis voluptatibus temporibus consectetur? Laboriosam quas voluptates excepturi cumque?</p>
+            <h3>titre de niveau 2</h3>
+            <p>autre paragraphe</p>
+        </article>
+        <article>
+            <h3>Titre de niveau 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ratione accusamus est qui nesciunt, facere neque corrupti soluta dolorum tenetur modi inventore, animi voluptates libero, impedit culpa aspernatur nulla eveniet!</p>
+            <h3>titre de niveau 2</h3>
+            <p>autre paragraphe</p>
+        </article>
+        <!-- le contenu placé sur le coté peut aussi dans le contenu principal -->
+        <aside>
+            <ul>
+                <li><a href="#">item 1</a></li>
+                <li><a href="#">item 2</a></li>
+                <li><a href="#">item 3</a></li>
+                <li><a href="#">item 4</a></li>
+                <li><a href="#">item 5</a></li>
+            </ul>
+        </aside>
+    </main>
+    
+    
+    <div>
+        div
+    </div>
+    <!-- et voici le pied de page principal utilisé sur les différentes pages du site -->
+    <footer>
+        &COPY; : tout droit réservé toto.inc
+    </footer>
+</body>
+</html>

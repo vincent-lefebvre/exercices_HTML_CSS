@@ -1,0 +1,30 @@
+/* feuille de style */
+body{
+    background-color: khaki;
+    border: 1px solid black;
+    margin: 20px;
+    width: 50%;
+    float: left;
+}
+
+
+.encadre{
+    background-color: white;
+    border: 5px solid purple;
+    width: 50%;
+}
+
+.question {
+    background-color: lightblue;
+    text-decoration-color: white;
+    text-size-adjust: 100%;
+}
+
+.reponse{
+    background-color: gold;
+}
+
+.special {
+    background-color: palevioletred;
+    font-weight: bolder;
+}
